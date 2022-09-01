@@ -10,14 +10,6 @@ This app shows how you can use the [streamlit-aggrid](https://github.com/PablocF
 
 Please ask in the [Streamlit community](https://discuss.streamlit.io).
 
-# Using Streamlit with Pro Products 
-
-Warning
-
-Take care never to use !pip install package as this will use the system pip and not the one associated with your virtual environment. This can result in packages being installed to your user environment instead of the virtual environment, or in some cases, packages failing to install altogether.
-
-It is important to install in this way to ensure that packages are installed to the appropriate environment. Please remember however, that any such package installation commands should be removed from your Notebook prior to publication on RStudio Connect.
-
 # Workbench
 
 Referencing [here](https://solutions.rstudio.com/python/jupyter/). 
