@@ -9,3 +9,20 @@ This app shows how you can use the [streamlit-aggrid](https://github.com/PablocF
 ### Questions? Comments?
 
 Please ask in the [Streamlit community](https://discuss.streamlit.io).
+
+
+# Publishing 
+
+Instructions from [here](https://docs.rstudio.com/connect/user/streamlit/). 
+
+To deploy one of these examples, first clone the repository:
+git clone https://github.com/streamlit/<app-name>
+
+Install any required dependencies. Test the app locally:
+streamlit run <app-name>/streamlit_app.py
+
+Then deploy to RStudio Connect:
+rsconnect deploy streamlit -n <saved server name> --entrypoint streamlit_app.py <app-name>/
+
+
+
